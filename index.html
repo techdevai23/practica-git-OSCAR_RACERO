@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oz Outlet - Hombre</title>
+    <link rel="stylesheet" href="estilosOzHombre.css">
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <h1>Moda Hombre</h1>
+
+        <div class="logo-container">
+            <img src="logo oz.png" id="logo" alt="Logo">
+        </div>
+
+        <!-- Buscar -->
+        <div class="container">
+
+            <input type="text" name="buscar" placeholder="Buscar">
+            <button id="buscar">Encuentra</button>
+        </div>
+
+        <!-- menu -->
+        <div class="container3">
+
+            <div class="menu contacto">
+                <a href="indexOZ.html"><strong>Principal</strong></a>
+            </div>
+            <div class="menu mujer">
+                <a href="mujer.html"><strong>Moda Mujer</strong></a>
+            </div>
+            <div class="menu contacto">
+                <a href="contacto.html"><strong>Contacto</strong></a>
+            </div>
+
+        </div>
+        <!-- contenedor central prendas -->
+
+        <div class="galeria-container hombre">
+          <figure>
+                <img src="fotos/hombre3.jpeg" alt="hombre3" data-price="55€">
+                <figcaption>hombre3</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/camisas1 hombre.jpg" alt="camisa1" data-price="60€">
+                <figcaption>camisa1</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/camisas2 hombre.jpg" alt="camisa2" data-price="65€">
+                <figcaption>camisa2</figcaption>
+            </figure>
+        </div>
+
+        <!-- Modal para imágenes -->
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-img">
+            <div id="caption"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <a href="proteccion_datos.html">Protección de Datos</a>
+            <a href="aviso_legal.html">Aviso Legal</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="mapa.html">Mapa del Sitio</a>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
